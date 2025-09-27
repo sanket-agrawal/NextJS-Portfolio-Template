@@ -16,12 +16,20 @@ export const forms = {
 }
 
 export const skills = [
-    { name: "Html", alt: "html logo", icon: "/html.svg" },
-    { name: "Css", alt: "css logo", icon: "/css.svg" },
-    { name: "Js", alt: "js logo", icon: "/js.svg" },
     { name: "Tailwind", alt: "tailwind logo", icon: "/tailwind.svg" },
     { name: "React Js", alt: "react logo", icon: "/react.svg" },
     { name: "Next Js", alt: "nextjs logo", icon: "/nextjs.svg" },
+    {name : 'Express Js', alt: 'expressjs logo', icon: '/express.svg'},
+    {name : 'Node Js', alt: 'nodejs logo', icon: '/nodejs.svg'},
+    {name : 'MongoDB', alt: 'mongodb logo', icon: '/mongodb.svg'},
+    {name : 'PostgreSQL', alt: 'postgresql logo', icon: '/postgres.svg'},
+    {name : 'Docker', alt: 'docker logo', icon: '/docker.svg'},
+    {name : 'AWS', alt: 'aws logo', icon: '/aws.svg'},
+    {name : 'GitHub', alt: 'github logo', icon: '/github.svg'},
+    {name : 'Figma', alt: 'figma logo', icon: '/figma.svg'},
+    { name : 'Java', alt: 'java logo', icon: '/java.svg' },
+    {name : 'Python', alt: 'python logo', icon: '/python.svg'},
+    {name : 'Golang', alt: 'golang logo', icon: '/golang.svg'},
 ];
 
 export const socials = {

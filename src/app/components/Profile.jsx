@@ -5,7 +5,7 @@ export default function Profile() {
     return (
         <>
             <img
-                src="https://i.imgur.com/zjGPTRC.jpeg"
+                src="./profileimg.jpg"
                 className="w-[70px] h-[70px] rounded-[50%] object-cover object-center"
                 alt={`${about.name}'s profile`}
             />
