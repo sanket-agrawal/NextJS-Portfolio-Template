@@ -1,13 +1,13 @@
 export const about = {
-    name: "Your Name",
-    role: "Your Profession",
-    about: "A minimal, clean portfolio template built with Next.js. Perfect for developers who want a simple yet professional online presence without the complexity.",
-    email: "your.email@example.com",
+    name: "Sanket Agrawal",
+    role: "Software Developer",
+    about: "I'm a Full Stack Developer with 3 years of experience building web applications using Next.js, React.js, Node.js, and Express.js. I work with MongoDB, PostgreSQL, Docker, and AWS, and collaborate using GitHub and Figma. I focus on writing clean, scalable code and delivering end-to-end solutions.",
+    email: "mailsanketagrawal@gmail.com",
 };
 
 export const seo = {
     title: `${about.name} | ${about.role}`,
-    description: "Minimal, clean Next.js portfolio template for developers seeking a simple, professional online presence without extra complexity.",
+    description: "I'm a Full Stack Developer with 3 years of experience building web applications using Next.js, React.js, Node.js, and Express.js. I work with MongoDB, PostgreSQL, Docker, and AWS, and collaborate using GitHub and Figma. I focus on writing clean, scalable code and delivering end-to-end solutions.",
     keywords: "portfolio, web developer, Next.js, developer portfolio, minimal portfolio",
 }
 
@@ -25,96 +25,57 @@ export const skills = [
 ];
 
 export const socials = {
-    github: "https://github.com/sachinbhujel",
-    twitter: "https://twitter.com/sachinbhujel909",
-    instagram: "https://www.instagram.com/imsachinbhujel",
-    facebook: "https://www.facebook.com/imsachinbhujel",
+    linkedin: "https://www.linkedin.com/in/sanket-agr/",
+    youtube : "https://www.youtube.com/@sanket-agr",
+    github: "https://github.com/sanket-agrawal",
+    twitter: "https://x.com/_sanket_agrawal",
+    instagram: "https://www.instagram.com/_sanketagrawal_/"
 };
 
 export const projects = {
     pinProjects: [
         {
-            title: "Project 1",
+            title: "Catalyst Care",
             description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-            tags: ["CSS", "React Js"],
-            link: "",
-        },
-        {
-            title: "Project 2",
-            description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
-            link: "",
-        },
-        {
-            title: "Project 3",
-            description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
-            link: "",
-        },
+                "A mental health platform offering therapy, counseling, and self-care resources. Connect with licensed professionals for personalized support.",
+            tags: ["Next.js","Tailwind CSS", "MongoDB"],
+            link: "https://catalystcare.in/",
+        }
     ],
     otherProjects: [
-        {
-            title: "Project 4",
-            description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-            tags: ["CSS", "React Js"],
-            link: "",
-        },
-        {
-            title: "Project 5",
-            description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
-            link: "",
-        },
-        {
-            title: "Project 6",
-            description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
-            link: "",
-        },
     ],
 };
 
 export const experience = [
     {
-        title: "Frontend Developer at Tech Solutions",
+        title: "Consultant - Developer at Thoughtworks",
         description:
             "Worked on building and maintaining responsive web applications using React.js and Next.js, improving UI performance and user experience.",
-        date: "15/01/2024",
+        date: "27/10/2025",
     },
     {
-        title: "Web Developer Intern at Creative Studio",
+        title: "Full Stack Developer at Ataloud Technologies",
         description:
             "Assisted in designing website layouts, wrote clean HTML/CSS code, and collaborated with the team on JavaScript features for client projects.",
-        date: "10/06/2023",
+        date: "01/04/2023",
     },
     {
-        title: "Junior Developer at Innovate Labs",
+        title: "Full Stack Developer Intern at Ataloud Technologies",
         description:
             "Developed and tested frontend components, optimized web pages for speed, and contributed to team code reviews and debugging sessions.",
-        date: "01/09/2022",
+        date: "01/01/2023",
     },
 ];
 
 export const blogs = [
     {
-        title: "Understanding React Hooks",
-        date: "12/03/2025",
-        link: "#",
+        title: "A Gentle Guide to Mental Wellness",
+        date: "15/08/2025",
+        link: "https://catalystcare.in/self-help/blogs/mental-wellness-guide",
     },
     {
-        title: "CSS Grid vs Flexbox: When to Use Which",
-        date: "25/12/2024",
-        link: "#",
-    },
-    {
-        title: "Next.js SEO Best Practices",
-        date: "10/07/2024",
-        link: "#",
-    },
+        title: "How to run Linux inside Windows?",
+        date: "10/12/2024",
+        link: "https://medium.com/@mailsanketagrawal/how-to-run-linux-inside-windows-5ad77d364f31",
+    }
 ];
