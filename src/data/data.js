@@ -8,7 +8,7 @@ export const about = {
 export const seo = {
     title: `${about.name} | ${about.role}`,
     description: "I'm a Full Stack Developer with 3 years of experience building web applications using Next.js, React.js, Node.js, and Express.js. I work with MongoDB, PostgreSQL, Docker, and AWS, and collaborate using GitHub and Figma. I focus on writing clean, scalable code and delivering end-to-end solutions.",
-    keywords: "portfolio, web developer, Next.js, developer portfolio, minimal portfolio",
+    keywords: "portfolio, web developer, Next.js, developer portfolio, minimal portfolio, full stack developer, React.js, Node.js, Express.js, MongoDB, PostgreSQL, Docker, AWS",
 }
 
 export const forms = {
