@@ -36,6 +36,7 @@ export default function RootLayout({ children }) {
                 <div className="w-[100%] md:w-[700px] m-auto">
                     <Navbar />
                     {children}
+                    <Analytics/>
                     <Footer />
                 </div>
             </body>
