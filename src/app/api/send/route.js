@@ -1,8 +1,6 @@
 import { Resend } from "resend";
-import { render } from "@react-email/render";
 import { ContactSubmitterEmail } from "../../components/EmailTemplate";
-
-console.log(process.env.RESEND_API_KEY)
+import { getContactReceiverEmail, getContactSubmitterEmail } from "@/app/lib/emailTemplate";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -11,15 +9,23 @@ export async function POST(req) {
     const body = await req.json();
     const { fullName, email, message } = body;
 
-     const emailHtml = render(ContactSubmitterEmail({ fullName }));
+     const emailHtml = getContactSubmitterEmail(fullName);
 
     // Send email to user
     await resend.emails.send({
-      from: "Acme <onboarding@resend.dev>",
+      from: "no-reply@sanketagrawal.com",
       to: [email],
-      subject: `Thanks for contacting us, ${fullName} - Sanket Agrawal`,
+      subject: `Thanks for contacting us, ${fullName}`,
       html: emailHtml,
     });
+
+    await resend.emails.send({
+      from: "no-reply@sanketagrawal.com",
+      to: ["mailsanketagrawal@gmail.com"],
+      subject: `New contact form submission from ${fullName}`,
+      html: getContactReceiverEmail(fullName, email, message),
+    });
+
 
     return new Response(
       JSON.stringify({ message: "Thank you for contacting" }),

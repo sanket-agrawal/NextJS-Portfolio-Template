@@ -20,7 +20,7 @@ function page() {
                                 key={index}
                                 className="flex items-center justify-between gap-5"
                             >
-                                <Link href={blog.link}>
+                                <Link href={blog.link} target="_blank" rel="noopener noreferrer">
                                     <h2 className="cursor-pointer hover:underline">
                                         {blog.title}
                                     </h2>
