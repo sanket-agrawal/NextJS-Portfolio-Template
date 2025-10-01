@@ -55,24 +55,24 @@ export const projects = {
 };
 
 export const experience = [
-    {
-        title: "Consultant - Developer at Thoughtworks",
-        description:
-            "Worked on building and maintaining responsive web applications using React.js and Next.js, improving UI performance and user experience.",
-        date: "27/10/2025",
-    },
-    {
-        title: "Full Stack Developer at Ataloud Technologies",
-        description:
-            "Assisted in designing website layouts, wrote clean HTML/CSS code, and collaborated with the team on JavaScript features for client projects.",
-        date: "01/04/2023",
-    },
-    {
-        title: "Full Stack Developer Intern at Ataloud Technologies",
-        description:
-            "Developed and tested frontend components, optimized web pages for speed, and contributed to team code reviews and debugging sessions.",
-        date: "01/01/2023",
-    },
+    // {
+    //     title: "Consultant - Developer at Thoughtworks",
+    //     description:
+    //         "Worked on building and maintaining responsive web applications using React.js and Next.js, improving UI performance and user experience.",
+    //     date: "27/10/2025",
+    // },
+{
+    title: "Full Stack Developer at Ataloud Technologies",
+    description:
+        "Architected and scaled project management platform with Node.js, Express, PostgreSQL; built APIs, optimized performance, and led cross-functional delivery.",
+    date: "01/04/2023",
+},
+{
+    title: "Full Stack Developer Intern at Ataloud Technologies",
+    description:
+        "Developed frontend components, optimized pages, and contributed to code reviews and debugging for client projects.",
+    date: "01/01/2023",
+}
 ];
 
 export const blogs = [
