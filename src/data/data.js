@@ -77,6 +77,11 @@ export const experience = [
 
 export const blogs = [
     {
+        title: "Beyond MVC: Applying Domain-Driven Design in Go Backend Architecture",
+        date: "09/10/2025",
+        link: "https://laurengroup.ai/blogs/beyond-mvc-applying-domaindriven-design-in-go-backend-architecture-mgj7xtr7",
+    },
+    {
         title: "A Gentle Guide to Mental Wellness",
         date: "15/08/2025",
         link: "https://catalystcare.in/self-help/blogs/mental-wellness-guide",

@@ -6,7 +6,7 @@ export function getContactSubmitterEmail(fullName = "") {
       Hi ${fullName || "there"},
     </h2>
     <p style="color:#4b5563; font-size:16px; line-height:1.6; margin-top:16px;">
-      Thank you for reaching out to us. We’ve received your message and our team will get back to you shortly.
+      Thank you for reaching out to us. We’ve received your message and we will get back to you shortly.
     </p>
     <p style="color:#4b5563; font-size:16px; line-height:1.6; margin-top:8px;">
       If you have any urgent queries, feel free to reply to this email.
