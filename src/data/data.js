@@ -55,12 +55,12 @@ export const projects = {
 };
 
 export const experience = [
-    // {
-    //     title: "Consultant - Developer at Thoughtworks",
-    //     description:
-    //         "Worked on building and maintaining responsive web applications using React.js and Next.js, improving UI performance and user experience.",
-    //     date: "27/10/2025",
-    // },
+    {
+        title: "Consultant - Developer at Thoughtworks",
+        description:
+            "Worked on building and maintaining responsive web applications backend using Golang and Node.js, improving backend performance and optimisation of database.",
+        date: "27/10/2025",
+    },
 {
     title: "Full Stack Developer at Ataloud Technologies",
     description:
