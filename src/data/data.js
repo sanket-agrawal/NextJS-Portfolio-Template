@@ -48,7 +48,15 @@ export const projects = {
                 "A mental health platform offering therapy, counseling, and self-care resources. Connect with licensed professionals for personalized support.",
             tags: ["Next.js","Tailwind CSS", "MongoDB"],
             link: "https://catalystcare.in/",
-        }
+        },
+        {
+  title: "VisaAssist",
+  description:
+    "A visa document assistant that helps applicants generate embassy-ready cover letters and country-specific document guidance with confidence.",
+  tags: ["Next.js", "Tailwind CSS"],
+  link: "https://visaassist.netlify.app/",
+}
+
     ],
     otherProjects: [
     ],
