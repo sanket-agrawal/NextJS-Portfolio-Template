@@ -46,15 +46,15 @@ export const projects = {
             title: "Catalyst Care",
             description:
                 "A mental health platform offering therapy, counseling, and self-care resources. Connect with licensed professionals for personalized support.",
-            tags: ["Next.js","Tailwind CSS", "MongoDB"],
+            tags: ["Next.js","Tailwind CSS", "Node.js", "Express.js", "MongoDB", "AWS", "Docker","Prisma", "Figma","PostgreSQL","Redis"],
             link: "https://catalystcare.in/",
         },
         {
-  title: "VisaAssist",
+  title: "QueueCut",
   description:
     "A visa document assistant that helps applicants generate embassy-ready cover letters and country-specific document guidance with confidence.",
-  tags: ["Next.js", "Tailwind CSS"],
-  link: "https://visaassist.netlify.app/",
+  tags: ["Next.js", "Tailwind CSS","MongoDB"],
+  link: "https://queucut.netlify.app/",
 }
 
     ],
