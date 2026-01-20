@@ -52,10 +52,11 @@ export const projects = {
         {
   title: "QueueCut",
   description:
-    "A visa document assistant that helps applicants generate embassy-ready cover letters and country-specific document guidance with confidence.",
-  tags: ["Next.js", "Tailwind CSS","MongoDB"],
+    "A salon slot booking and live queue management platform that helps customers avoid long waits and enables local salons to manage walk-ins efficiently.",
+  tags: ["Next.js", "Tailwind CSS", "MongoDB", "Queue Management"],
   link: "https://queucut.netlify.app/",
 }
+
 
     ],
     otherProjects: [
